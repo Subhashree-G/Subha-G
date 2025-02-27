@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+img.hover\:zoom-in {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Define the zoom effect on hover */
+  img.hover\:zoom-in:hover {
+    transform: scale(1.1);
+  }
